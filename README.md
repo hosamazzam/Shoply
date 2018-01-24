@@ -4,7 +4,7 @@
 
 # Shoply
 
-Online shopping Mobile App Project For Android Development Tutorials on : https://goo.gl/5mY7S3
+Online shopping Mobile App Project For Android Development Tutorials on : https://goo.gl/Z6v71w
 
 ## Requirement
 -Android studio : 3.0.1
