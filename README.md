@@ -1,7 +1,7 @@
-#Shoply
+# Shoply
 Online shopping Mobile App Project For Android Development Tutorials on : https://goo.gl/5mY7S3
 
-##Requirement
+## Requirement
 -Android studio 3.0.1
 
 -Gradle 4.1
@@ -38,4 +38,4 @@ Online shopping Mobile App Project For Android Development Tutorials on : https:
 RecycleView, ToolBar, CardView, Volley, Gson, ListView, NestedScroll, DrawerLayout, ActionBarDrawerToggle, NavigationView, ProgressBar, DialogFragment, Fragments, BottomSheet and more
 
 ## License
-This project is licensed under the MIT License - see the [License.md] License.md file for details
+This project is licensed under the MIT License - see the [License.md](License.md) file for details
