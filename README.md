@@ -1,7 +1,9 @@
 <p align="center"> 
 <img src="logo.png" width="200" height="200">
 </p>
+
 # Shoply
+
 Online shopping Mobile App Project For Android Development Tutorials on : https://goo.gl/5mY7S3
 
 ## Requirement
