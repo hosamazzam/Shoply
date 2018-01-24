@@ -2,11 +2,11 @@
 Online shopping Mobile App Project For Android Development Tutorials on : https://goo.gl/5mY7S3
 
 ## Requirement
--Android studio 3.0.1
+-Android studio : 3.0.1
 
--Gradle 4.1
+-Gradle : 4.1
 
--min sdk : 16
+-min sdk : 15
 
 -target sdk : 27
 
@@ -36,6 +36,10 @@ Online shopping Mobile App Project For Android Development Tutorials on : https:
 
 ## Techniques
 RecycleView, ToolBar, CardView, Volley, Gson, ListView, NestedScroll, DrawerLayout, ActionBarDrawerToggle, NavigationView, ProgressBar, DialogFragment, Fragments, BottomSheet and more
+
+## Develeped By
+* Auther : Hosam Azzam
+* Email  : hosam.azzam2@gmail.com
 
 ## License
 This project is licensed under the MIT License - see the [License.md](License.md) file for details
