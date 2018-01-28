@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/image_page_slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:id="@+id/image_page_dots"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+
+        <include layout="@layout/category_layout" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <include layout="@layout/card_brand_home" />
+
+                <include layout="@layout/card_brand_home" />
+
+                <include layout="@layout/card_brand_home" />
+
+                <include layout="@layout/card_brand_home" />
+
+                <include layout="@layout/card_brand_home" />
+
+                <include layout="@layout/card_brand_home" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <include layout="@layout/card_item_home" />
+
+                <include layout="@layout/card_item_home" />
+
+                <include layout="@layout/card_item_home" />
+
+                <include layout="@layout/card_item_home" />
+
+                <include layout="@layout/card_item_home" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

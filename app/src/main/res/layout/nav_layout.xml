@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.alexzh.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/user"
+        app:view_borderColor="@color/colorPrimaryDark"
+        app:view_borderWidth="3dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Hosam Azzam"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_action_home"
+        android:drawableStart="@drawable/ic_action_home"
+        android:gravity="center|start"
+        android:text=" Home"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_action_hot"
+        android:drawableStart="@drawable/ic_action_hot"
+        android:gravity="center|start"
+        android:text=" Hot Deals"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_action_categroy"
+        android:drawableStart="@drawable/ic_action_categroy"
+        android:gravity="center|start"
+        android:text=" Categories"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_action_cart"
+        android:drawableStart="@drawable/ic_action_cart"
+        android:gravity="center|start"
+        android:text=" My Cart"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_action_history"
+        android:drawableStart="@drawable/ic_action_history"
+        android:gravity="center|start"
+        android:text=" History"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_action_about"
+        android:drawableStart="@drawable/ic_action_about"
+        android:gravity="center|start"
+        android:text=" About"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_action_logout"
+        android:drawableStart="@drawable/ic_action_logout"
+        android:gravity="center|start"
+        android:text=" Log out"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarSize="2dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:alignmentMode="alignBounds"
+            app:columnCount="7"
+            app:layout_columnWeight="4"
+            app:rowCount="2"
+            app:useDefaultMargins="true">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="#4C5058"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:layout_column="0"
+                app:layout_columnSpan="4"
+                app:layout_row="0"
+                app:layout_rowSpan="2"
+                app:layout_rowWeight="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Hot Deals"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="#E3BBB4"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:layout_column="4"
+                app:layout_columnWeight="1"
+                app:layout_row="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Woman Fashion"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="#D9D9D9"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:layout_column="4"
+                app:layout_columnWeight="1"
+                app:layout_row="0">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Man Fashion"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="#D3A687"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:layout_column="5"
+                app:layout_columnWeight="1"
+                app:layout_row="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Beauty &amp; Perfumes"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="#B7EC9E"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:layout_column="5"
+                app:layout_columnWeight="1"
+                app:layout_row="0">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Electronics"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="#30A8B7"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:layout_column="6"
+                app:layout_columnWeight="1"
+                app:layout_row="0">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Mobiles &amp; Tablets"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:layout_column="6"
+                app:layout_columnWeight="1"
+                app:layout_row="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="View \nmore"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </android.support.v7.widget.CardView>
+
+
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+</HorizontalScrollView>
