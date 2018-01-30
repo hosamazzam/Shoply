@@ -6,7 +6,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.hosamazzam.apps.shoply.Fragments.HomeFragment;
+import com.hosamazzam.apps.shoply.Fragments.RegisterFragment;
 
 public class MainActivity extends AppCompatActivity {
     ActionBarDrawerToggle actionBarDrawerToggle;
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportFragmentManager()
                 .beginTransaction()
-                .add(R.id.main_fragment_container, new HomeFragment(), "HomeFragment")
+                .add(R.id.main_fragment_container, new RegisterFragment(), "HomeFragment")
                 .commit();
     }
 
