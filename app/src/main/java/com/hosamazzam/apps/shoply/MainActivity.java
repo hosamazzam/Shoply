@@ -6,7 +6,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.hosamazzam.apps.shoply.Fragments.RegisterFragment;
+import com.hosamazzam.apps.shoply.Fragments.HomeFragment;
+import com.hosamazzam.apps.shoply.Tools.SlideNavigation;
 
 public class MainActivity extends AppCompatActivity {
     ActionBarDrawerToggle actionBarDrawerToggle;
@@ -29,8 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportFragmentManager()
                 .beginTransaction()
-                .add(R.id.main_fragment_container, new RegisterFragment(), "HomeFragment")
+                .add(R.id.main_fragment_container, new HomeFragment(), "HomeFragment")
                 .commit();
+
+        SlideNavigation slideNavigation = new SlideNavigation(R.id.main_fragment_container);
+        slideNavigation.initSlideMenu(MainActivity.this, getSupportFragmentManager(), drawerLayout);
     }
 
     @Override

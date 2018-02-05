@@ -8,6 +8,7 @@
     android:orientation="vertical">
 
     <com.alexzh.circleimageview.CircleImageView
+        android:id="@+id/user_img"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
@@ -17,6 +18,7 @@
         app:view_borderWidth="3dp" />
 
     <TextView
+        android:id="@+id/user_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -34,6 +36,7 @@
         android:background="@color/colorPrimaryDark" />
 
     <TextView
+        android:id="@+id/menu_home"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginEnd="10dp"
@@ -47,6 +50,7 @@
         android:textSize="16sp" />
 
     <TextView
+        android:id="@+id/menu_hot"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginEnd="10dp"
@@ -61,6 +65,7 @@
 
 
     <TextView
+        android:id="@+id/menu_cat"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginEnd="10dp"
@@ -74,6 +79,7 @@
         android:textSize="16sp" />
 
     <TextView
+        android:id="@+id/menu_cart"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginEnd="10dp"
@@ -88,6 +94,7 @@
 
 
     <TextView
+        android:id="@+id/menu_his"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginEnd="10dp"
@@ -109,6 +116,7 @@
         android:background="@color/colorPrimaryDark" />
 
     <TextView
+        android:id="@+id/menu_about"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginEnd="10dp"
@@ -122,6 +130,7 @@
         android:textSize="16sp" />
 
     <TextView
+        android:id="@+id/menu_logout"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginEnd="10dp"
